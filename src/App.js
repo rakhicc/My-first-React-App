@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
+  const name="Rakhi Chandran chirayil";
+  const year=2015;
   return (
+    
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hi! Hello World.</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+           I am {name}.
+          I have {2021-year} years of experience in the software development field.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
       </header>
     </div>
   );
